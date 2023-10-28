@@ -1,0 +1,163 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Whatsup",
+        "Wagwan"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure", "At your service"]
+    },
+    {
+      "tag": "p2p loans",
+      "patterns": [
+        "What is Peer-to-Peer loan?",
+        "What is p2p loans"
+      ],
+      "responses": [[
+        "Peer-to-peer loans, often referred to as P2P loans, are loans that are facilitated directly between individuals without the involvement of traditional financial institutions, such as banks or credit unions. These loans are made possible through online platforms that connect borrowers with individual lenders or investors, allowing for the borrowing and lending of money outside of the conventional banking system."
+      ]]
+    },
+    {
+      "tag": "application process",
+      "patterns": [
+        "How do I apply for a loan?",
+        "What is the loan application process like?",
+        "How do I apply for a loan?"
+      ],
+      "responses": [[
+        "To apply for a loan, log in to the website and head over to the loan application page.",
+        "Fill in your desired amount, repayment time, purpose and loan type",
+        "Click on the Submit form and a lender would get back to you if they are willing to lend to you."
+      ]]
+    },
+    {
+      "tag": "become a lender",
+      "patterns": [
+        "How do I become a lender?",
+        "I want to become a lender"
+      ],
+      "responses": [[
+        "You can become a lender on PeerPocket by simply signing up as a lender."
+      ]]
+    },
+    {
+      "tag": "interest rates",
+      "patterns": [
+        "What are the interest rates?",
+        "What interest rate does PeerPocket use?"
+      ],
+      "responses": [[
+        "PeerPocket's interest rates depend on both the lender and borrower."
+      ]]
+    },
+    {
+      "tag": "minimum loan",
+      "patterns": [
+        "What is the minimum loan amount I can request for on PeerPocket?",
+        "What is the lowest loan amount I can ask for on PeerPocket?"
+      ],
+      "responses": [
+        "There is no minimum loan amount on PeerPocket. Lenders are free to give out whatever loans they desire to their borrowers."
+      ]
+    },
+    {
+      "tag": "late payment",
+      "patterns": [
+        "Are there penalties for late loan repayment?",
+        "What will happen if I repay my loan late?"
+      ],
+      "responses": [[
+        "Borrowers should always endeavour to pay their loans promptly but in cases where this cannot be avoided, reach out to the lender to discuss this."
+
+      ]]
+    },
+    {
+      "tag": "loan defaulters",
+      "patterns": [
+        "What do I do when a borrower does not pay up?",
+        "My borrower has absconded with my money",
+        "I can't reach my borrower"
+      ],
+      "responses": [[
+        "In cases where you're unable to reach your borrower, you are obligated to report such an individual to the Nigerian Credit Bureau. PeerPocket would not be held accountable for bad defaulters."
+      ]]
+    },
+    {
+      "tag": "part payment",
+      "patterns": [
+        "My borrower did not complete his payment",
+        "I only received part payment from the borrower"
+      ],
+      "responses": [[
+        "Reach out to the borrower to find out if this was intentional. Most honest borrowers prefer to repay their loans in part rather than not attempting to repay at all"
+      ]]
+    },
+    {
+      "tag": "additional charges",
+      "patterns": [
+        "Why was I charged extra?",
+        "My lender increased his charges"
+      ],
+      "responses": [[
+        "This is probably because you missed your loan repayment date. Once you miss your loan repayment date, you are automatically charged extra for every day you don't repay."
+      ]]
+    },
+    {
+      "tag": "double payment",
+      "patterns": [
+        "I repaid my loan twice",
+        "I mistakenly repaid my loan twice"
+      ],
+      "responses": [[
+        "While the lender would already have been informed of this, please reach out to your lender to speed up the refund."
+      ]]
+    },
+    {
+      "tag": "password reset",
+      "patterns": [
+        "I forgot my password",
+        "How can I reset my password?",
+        "I want to reset my password"
+      ],
+      "responses": [[
+        "To reset your password, click on the Forgot Credentials button and fill in the reuired information."
+      ]]
+    },
+    {
+      "tag": "early repayment",
+      "patterns": [
+        "Can I repay my loan before the due date?",
+        "I want to repay my loan before the due date"
+      ],
+      "responses": [[
+        "To do this log into your dashboard and click on the repay loan option."
+      ]]
+    }
+  ]
+}
