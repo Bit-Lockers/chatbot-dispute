@@ -37,10 +37,11 @@ To use the deployed chatbot simply paste the following URL in your browser:
 
   https://peerpocket-disputes.onrender.com/chat?message=<CUSTOMER_QUERY>
 
+<i>Replace <CUSTOMER_QUERY> with the query</i>
+
 <em>Sample Query</em>
   https://peerpocket-disputes.onrender.com/chat?message=hi
 
-<i>Replace <CUSTOMER_QUERY> with the query</i>
 
 This chatbot was trained on the data contained in intents.json file which can handle user's questions on:
 1. Greeting
