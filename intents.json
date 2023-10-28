@@ -90,7 +90,8 @@
       "tag": "late payment",
       "patterns": [
         "Are there penalties for late loan repayment?",
-        "What will happen if I repay my loan late?"
+        "What will happen if I repay my loan late?",
+        "I can't pay on time"
       ],
       "responses": [[
         "Borrowers should always endeavour to pay their loans promptly but in cases where this cannot be avoided, reach out to the lender to discuss this."
@@ -102,7 +103,8 @@
       "patterns": [
         "What do I do when a borrower does not pay up?",
         "My borrower has absconded with my money",
-        "I can't reach my borrower"
+        "I can't reach my borrower",
+        "My borrower won't pay what he owes me"
       ],
       "responses": [[
         "In cases where you're unable to reach your borrower, you are obligated to report such an individual to the Nigerian Credit Bureau. PeerPocket would not be held accountable for bad defaulters."
@@ -112,10 +114,11 @@
       "tag": "part payment",
       "patterns": [
         "My borrower did not complete his payment",
+        "Can I pay in part?",
         "I only received part payment from the borrower"
       ],
       "responses": [[
-        "Reach out to the borrower to find out if this was intentional. Most honest borrowers prefer to repay their loans in part rather than not attempting to repay at all"
+        "Reach out to the borrower to find out if this was intentional. Most honest borrowers prefer to repay their loans in part rather than not attempting to repay at all and in case it is a borrower who wants to pay in parts, reach out to the lender to obtain his permission"
       ]]
     },
     {
