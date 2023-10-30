@@ -1,7 +1,10 @@
 from flask import Flask, jsonify, render_template, request
+from flask_cors import CORS
 from chat import get_response
 
 app = Flask(__name__)
+
+CORS(app)
 
 @app.route("/chat", methods=['GET'])
 def predict():
