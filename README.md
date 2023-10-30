@@ -12,7 +12,7 @@ $ . venv/bin/activate
 ```
 Install dependencies
 ```
-$ (venv) pip install Flask torch torchvision nltk flask_cors
+$ (venv) pip install Flask torch torchvision nltk flask_cors gunicorn
 ```
 Install nltk package
 ```
