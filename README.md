@@ -5,8 +5,8 @@ This repo currently contains the starter files.
 
 Clone repo and create a virtual environment
 ```
-$ git clone https://github.com/python-engineer/chatbot-deployment.git
-$ cd chatbot-deployment
+$ git clone https://github.com/Bit-Lockers/chatbot-dispute.git
+$ cd chatbot-dispute
 $ python3 -m venv venv
 $ . venv/bin/activate
 ```
